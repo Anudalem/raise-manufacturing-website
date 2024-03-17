@@ -1,0 +1,30 @@
+.projects {
+  margin: 80px auto;
+  width: 95%;
+  text-align: center;
+}
+
+.project-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.project-gallery img {
+  width: 23%;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* media queris */
+
+@media (max-width: 800px) {
+  .project-gallery {
+    flex-wrap: wrap;
+  }
+  .project-gallery img {
+    width: 48%;
+    margin-bottom: 25px;
+  }
+}
